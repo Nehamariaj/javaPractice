@@ -1,0 +1,19 @@
+public class inheritanceDemo2{
+    public static void main(String [] args){
+       Car car=new Car();
+       car.details();
+       car.drive();
+    }
+}
+class vehicle{
+    public void details(){
+        System.out.println("The work I have been doing is:");
+    }
+    public void drive(){
+    }
+}
+class Car extends vehicle{
+    public void drive(){
+        System.out.println("Repairing a Car");
+    }
+} 

@@ -1,0 +1,15 @@
+public class inheritanceDemo{
+    public static void main(String [] args){
+        Cat cat=new Cat();
+        cat.makesound();
+    }
+}
+class animal{
+    public void makesound(){
+    }
+}
+class Cat extends animal{
+    public void makesound(){
+        System.out.println("A Cat meows");
+    }
+} 

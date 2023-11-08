@@ -13,7 +13,8 @@ public class SearchInAnArray {
         Arrays.sort(a);//always sort the elements before searching
         System.out.println("enter the element to be searched:");
         int search=sc.nextInt();
-        int result=Arrays.binarySearch(a,search);
+        int result=Arrays.binarySearch(a,search);//[Arrays.binarySearch() returns the address of the element in the array if found.
+                                                 //Also if Arrays.binarySearch() >=0,the element is present in the array.
         if(result>=0){
              System.out.println(search+" is found at position "+(result+1));
         }

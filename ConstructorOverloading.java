@@ -10,7 +10,7 @@ class Student{
         this.name=name;
         this.department=department;
     }
-    Student(int rollno,String name){
+    Student(int rollno,String name){ 
         this.rollno=rollno;
         this.name=name;
         this.department="CSE";
